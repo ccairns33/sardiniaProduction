@@ -59,7 +59,7 @@
 ![SD Screen Shot][product-screenshot]
 ![SD Gallery Screen Shot][product-screenshot2]
 ![SD Articles Screen Shot][product-screenshot3]
-![SD Mobile Screen Shot][product-screenshot4]
+<!-- ![SD Mobile Screen Shot][product-screenshot4] -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -130,5 +130,5 @@ Project Link: [https://github.com/ccairns33/sardiniaProduction](https://github.c
 [product-screenshot]: public/images/screencapture-sardiniandisruption.png
 [product-screenshot2]: public/images/screencapture-sardiniandisruption-gallery.png
 [product-screenshot3]: public/images/screencapture-sardiniandisruption-articles.png
-[product-screenshot4]: public/images/screencapture-sardiniandisruption-mobile.png
+<!-- [product-screenshot4]: public/images/screencapture-sardiniandisruption-mobile.png -->
 
