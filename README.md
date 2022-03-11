@@ -15,7 +15,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ccairns33/sardiniaProduction">
-    <img src="public/images/logo/logo12.png" alt="Logo" width="80" height="80">
+    <img src="public/images/logo/logo12.png" alt="Logo">
   </a>
   <h3 align="center">Sardinian Disruption</h3>
 
