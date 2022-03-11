@@ -1,0 +1,39 @@
+<div class="articles-page-container d-flex">
+    
+    <div class="articles-page-content">
+        <div class="articles-page-title page-title">
+            <span>All Articles</span>
+        </div>
+        <div class="breadcrumbs_container d-flex">
+            <a class="breadcrumbs_greyText" href="/">
+                <span>Home</span>
+            </a>
+            <span class="breadcrumbs_greyText"> / </span>
+            <span class="breadcrumbs_current">Articles</span>
+        </div>
+        <section class="article-list">
+            {{#each articles}}
+            <div class="article-list-item d-grid">
+                <div class="article-list-meta d-flex">
+                    <div class="article-list-date">
+                        <time datetime="{{date}}">{{date}}</time>
+                    </div>
+                    <div class="article-list-author">Brian Cairns</div>
+                </div>
+                <div class="article-list-main d-flex">
+                    <div class="article-list-title">
+                        <a href="/articles/{{url}}">{{title}}</a>
+                    </div>
+                    <div class="article-list-tags">
+                        <p>{{category}}</p>
+                    </div>
+                    <div class="article-list-description">
+                        {{description}}
+                    </div>
+                </div>
+            </div>
+        {{/each }}
+
+        </section>
+    </div>
+</div>

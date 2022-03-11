@@ -1,0 +1,51 @@
+<div class="breadcrumbs_container d-flex">
+        <a class="breadcrumbs_greyText" href="/">
+            <span>Home</span>
+        </a>
+        <span class="breadcrumbs_greyText"> / </span>
+        <span class="breadcrumbs_current">Contact Us</span>
+</div>
+<div class="contact-container d-flex">
+    <div class="contact-content">
+        <div class="contact-title page-title d-flex">
+            <img class="contact-img" src="/images/contact-page/mammoth.png" alt="Black and white Mammoth.">
+            <span>Contact Us</span>
+            <img class="contact-img" src="/images/contact-page/mammoth-flipped.png" alt="Black and white Mammoth.">
+        </div>
+        <div class="contact-description page-description">
+            Leave a message if you have a question, comment or suggestion.
+        </div>
+        <form class="contact-form" method="post" action= "">
+            <div class="form-control">
+                <div class="contact-name form-section">
+                    <label><span>Name</span></label>
+                    <input name="name" type="text" placeholder="Enter your name " id="name" value={{nameInput}} >
+                    {{#if nameError}}
+                    <i class="fail-icon fas fa-exclamation-circle" aria-hidden="true"></i>
+                    <small class="error">{{ nameError.msg }}</small>
+                    {{/if}}
+                </div>
+                <div class="contact-email form-section">
+                    <label><span>Email</span></label>
+                    <input name= "email" type="text" placeholder="Enter your email " id="email" value={{emailInput}} >
+                    {{#if emailError}}
+                        <i class="fail-icon fas fa-exclamation-circle" aria-hidden="true"></i>
+                        <small class="error">{{ emailError.msg }}</small>
+                    {{/if}}
+                </div>
+                <div class="contact-message form-section">
+                    <label><span>Message <i class="fas fa-star" aria-hidden="true"></i></span></label>
+                    <textarea name="message" id="message" rows="10" value={{messageInput}} ></textarea>
+                    {{#if messageError}}
+                        <i class="fail-icon fas fa-exclamation-circle" aria-hidden="true"></i>
+                        <small class="error">{{ messageError.msg }}</small>
+                    {{/if}}
+                </div>
+                <div class="send-message d-flex">
+                    <button type="submit" class="contact-btn">Send <i class="fas fa-envelope" aria-hidden="true"></i> </button>
+                </div>  
+            </div>
+        </form>
+    
+    </div>
+</div>

@@ -1,0 +1,1 @@
+(()=>{"use strict";(()=>{let e=document.querySelector("#mobile-nav-icon");const s=document.querySelector(".mobile-nav-container");e.addEventListener("click",(()=>{s.classList.toggle("mobile-nav-open"),(e=>{let s="fa-bars",t="fa-times";e.classList.contains(s)?(e.classList.remove(s),e.classList.add(t)):(e.classList.add(s),e.classList.remove(t))})(e)}))})()})();

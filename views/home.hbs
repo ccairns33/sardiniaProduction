@@ -1,0 +1,49 @@
+    <div class="home-page-content">
+            <div class="d-flex highlight-article">
+                <a class="highlight-img" href="/articles/{{highlightArticle.url}}">
+                    <img src="{{highlightArticle.thumbnail}}" alt="Domus de Janas S'Incantu, Putifigiari">
+                </a>
+                <div class="highlight-article-right d-flex">
+                    <div class="highlight-article-details">
+                        <a class="article-title" href="/articles/{{highlightArticle.url}}">
+                            <div class="article-title">
+                                <span>{{highlightArticle.title}}</span>
+                            </div>
+                        </a>
+                        <div class="article-author">
+                            <span>Brian Cairns</span>
+                        </div>
+                        <div class="article-description">
+                            {{highlightArticle.description}}
+                        </div>
+                    </div>
+                    <span class="highlight-read-more d-flex"><a  href="/articles/{{highlightArticle.url}}">read more <i class="fas fa-arrow-right" aria-hidden="true"></i></a></span>
+                </div>
+            </div>
+        <div class="articles d-grid">
+            {{#each articles}}
+            <div class="article d-flex">
+                <div class="article-content">
+                    <div id="float">
+                        <img class="article-img" src="{{thumbnail}}" >
+                    </div>
+                    <div class="article-details">
+                        <a class="article-title" href="/articles/{{url}}">
+                            <div class="article-title">
+                                <span>{{title}}</span>
+                            </div>
+                        </a>
+                        <div class="article-author">
+                            <span>Brian Cairns</span>
+                        </div>
+                        <div class="article-description description-height">
+                            {{description}}
+                        </div>
+                    </div>
+                </div>
+                <span class="read-more d-flex"><a href="/articles/{{url}}">read more <i class="fas fa-arrow-right" aria-hidden="true"></i></a></span>
+            </div>
+            {{/each }}
+        </div>
+</div>
+

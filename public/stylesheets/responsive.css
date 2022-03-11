@@ -1,0 +1,1080 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@media all and (min-width:2200px) and (max-width:4500px){
+    .wrapper1,.wrapper2{
+        margin: 0 20%;
+    }
+}
+@media all and (min-width:1800px)and (max-width:2200px){
+    .wrapper1,.wrapper2{
+        margin: 0 10%;
+    }
+    
+}
+@media all and (min-width: 1650px) and (max-width:4500px){
+    .img-banner > img {
+        width: 14.5rem !important;
+        height: 13rem !important;
+    }
+    .banner-nav1 {
+        height: 13rem !important;
+    }
+    .logo > a {
+        height: 6rem;
+        margin-top: 2rem !important;
+    }
+
+}
+@media all and (min-width: 1446px)and (max-width:4500px){
+    
+    .img-banner > img {
+        width: 11.5rem;
+        height: 11rem;
+    }
+    .logo {
+        height: 7rem;
+        margin: 2rem 0;
+    }
+    .logo{
+        height: 9rem;
+    }
+    .logo > a {
+        height: 6rem;
+        margin-top: 3rem;
+    }
+    .logo > a > img {
+        height: 6rem;
+    }
+    .nav-item > a > span, .footer-item > a > span, .nav-item2 > a > span {
+        font-size: .95rem;
+    }
+    .menu-item {
+        padding: .4rem 1.5rem;
+    }
+    .menu-item > a{
+        font-size:.95rem;
+    }
+    #last-menu-item{
+        padding-bottom: 1.5rem;
+    }
+    #first-menu-item {
+        padding-top: 1.5rem;
+    }
+    .article-title {
+        font-size: 1.75rem;
+        line-height: 1.6rem;
+    }
+    .article-description {
+        font-size: 1.2rem;
+    }
+    .banner-nav1 {
+        height: 10rem;
+    }
+    .header-nav2 {
+        height: 15.5rem;
+    }
+    nav {
+        height: 2.5rem;
+    }
+    .article-menu {
+        margin-top: .4rem;
+    }
+    .article-author {
+        font-size: 1rem;
+    }
+    .read-more>a, .highlight-read-more >a{
+        font-size:.9rem;
+    }
+}
+
+@media (min-width:1445px) and (max-width:1800px){
+    .img-banner > img {
+        width: 11.5rem;
+        height: 11rem;
+    }
+}
+@media all and (max-width:1445px){
+    .logo > a > img {
+        height: 5.0rem;
+        margin-top: 0rem;
+    }
+    .logo>a{
+        margin-top: 1rem;
+    }
+    .logo{
+        height: 8rem;
+    }
+    .img-banner > img {
+        width: 10rem;
+        height: 7rem;
+    }
+
+}
+@media all and (max-width:1130px) {
+    .highlight-article-right{
+        width:65%;
+    }
+    .logo {
+        height: 6rem;
+    }
+    .logo > a > img {
+        height: 4.0rem;
+        margin-top: 0rem;
+    }
+    .header-nav2 {
+        height: 8rem;
+    }   
+    .logo > a {
+        margin-top: 1rem;
+    }
+    .copyright{
+        font-size:.8rem;
+        line-height: .8rem;
+    }
+    .footer-links{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    /* .logo-small > a >img{
+        margin-top:1rem;
+    } */
+    /* written articles */
+    .article-main{
+        -ms-grid-rows: auto;
+        grid-template-rows: auto;
+        -ms-grid-columns: none;
+        grid-template-columns: none;
+    }
+    .article-main > *:nth-child(1){
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .article-navigation{
+        -ms-grid-row: -1;
+            grid-row-start: -1;
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: row-reverse;
+                flex-direction: row-reverse;
+    }
+    .article-navigation > .border-b{
+        border-top: 1px solid #eae9e7;
+        border-bottom:none;
+    }
+    .article-navigation{
+        padding-right:0;
+        margin: 0 3%;
+    }
+    .footnotes{
+        padding: 1rem 0;
+    }
+    .nav-section{
+        padding-left: 1rem;
+    }
+    .article-meta, .author-meta{
+        display:inline-block;
+    }
+    .article-meta img{
+        visibility: visible;
+    }
+    .author-section {
+        padding-top: 2rem;
+    }
+    .nav-back{
+        margin-right:auto;
+    }
+    .message-panel {
+        top: 34%;
+        left: 30%;
+    }
+    /* image carousel */
+    .image-carousel {
+        width: 70%;
+    }
+}
+@media all and (max-width:1000px) {
+    .highlight-article-right{
+        width: 90%;
+    }
+    .article-description{
+        font-size:.85rem;
+    }
+    .article-img{
+        height:12rem;
+    }
+    /* about page */
+    .sardinia-map{
+        margin-left: .5rem;
+    }
+    .about-title{
+        margin: 2rem 0 2rem 0;
+        font-size:2rem;
+    }
+
+    /* donate page */
+    .donate-description {
+        margin: 0 20% 1.5rem 20%;
+    }
+    .donate-title {
+        margin-bottom: 1.5rem;
+    }
+    /* written articles */
+    .article-title-meta {
+        font-size: 2.0rem;
+        line-height: 3.5rem;
+    }
+    .article-meta span {
+        font-size: .85rem;
+    }
+    .section-title {
+        margin: 1rem 0;
+    }
+    .section-title > span {
+        font-size: 1.4rem;
+    }
+    .single {
+        height: 19rem;
+        width: 27rem;
+    }
+    .figure {
+        height: 16rem;
+        width: 18rem;
+    }
+    .nav-new-article, .go-back{
+        font-size: .9rem;
+    }
+    .nav-title {
+        font-size: .7rem;
+    }
+    .nav-author > span {
+        font-size: .9rem;
+    }
+    /* contact page */
+    .contact-content {
+        margin: 0 5%;
+    }
+    .message-panel {
+        left: 26%;
+    }
+}
+@media all and (max-width:900px) {
+    /* image carousel */
+    .carousel__indicator {
+        width: .4rem;
+        height: .4rem;
+    }
+}
+@media all and (max-width:860px) {
+    .logo {
+        height: 6rem;
+    }
+    .logo > a {
+        margin-top: 1rem;
+    }
+    .img-banner > img {
+        width: 6.3rem;
+        height: 7.5rem;
+    }
+    .article-description{
+        font-size:.8rem;
+    }
+    .read-more>a, .highlight-read-more>a{
+        font-size:.7rem;
+    }
+    .article-title{
+        font-size:1.1rem
+    }
+    .article-author{
+        line-height:1.5rem;
+        font-size:.8rem;
+    }
+    .copyright{
+        font-size:.7rem;
+    }
+    .social-logos{
+        font-size:.8rem;
+    }
+    /* written articles */
+    .article-title-meta {
+        font-size: 1.6rem;
+        line-height: 2.7rem;
+    }
+    .article-date {
+        line-height: 1.1rem;
+    }
+    .article-meta, .article-meta span {
+        font-size: .8rem;
+    }
+    .section-title > span {
+        font-size: 1.2rem;
+    }
+    .article-p, .footnotes {
+        font-size: 1rem;
+    }
+    .article-header{
+        padding: 1rem 0 2rem 0;
+    }
+    .figure {
+        height: 14rem;
+        width: 16rem;
+    }
+    .single {
+        height: 17rem;
+        width: 25rem;
+    }
+    /* contact page */
+    
+    .contact-title > .contact-img {
+        height: 3rem;
+        width: 4rem;
+    }
+    .contact-description{
+        margin: 1rem 10% 2rem 10%;
+    }
+    .contact-title > span {
+        font-size: 2.1rem;
+    }
+    .message-panel {
+        left: 24%;
+    }
+}
+@media all and (max-width:750px) {
+    .logo > a {
+        margin-top: .5rem;
+    }
+    .logo {
+        height: 5rem;
+    }
+    .img-banner > img {
+        width: 6.3rem;
+        height: 6.8rem;
+    }
+    .article-description{
+        font-size:.75rem;
+    }
+    .read-more>a, .highlight-read-more>a{
+        font-size:.7rem;
+    }
+    .article-title{
+        font-size:1rem;
+    }
+    .article-author{
+        line-height:1.1rem;
+        font-size:.75rem;
+    }
+    .copyright{
+        font-size:.65rem;
+    }
+    .social-logos{
+        font-size:.7rem;
+    }
+    .article-img{
+        height:11rem;
+    }
+    .header-nav2 {
+        height: 7rem;
+    }
+    /* about page */
+    .sardinia-map{
+        width: 9rem;
+        height: 16rem;
+    }
+    .about-title{
+        margin: 1.5rem 0 1.5rem 0;
+
+    }
+    .page-title>span{
+        padding-bottom:0;
+    }
+    
+    /* donate page */
+    .donate-title {
+        margin-top: 1rem;
+    }
+    .donate-description {
+        font-size: .8rem;
+        line-height: 1.1rem;
+    }
+    .eth-logo {
+        width: 6rem;
+    }
+    .ada-logo {
+        width: 6rem;
+    }
+    /* written articles */
+    .single {
+        height: 17rem;
+        width: 24rem;
+    }
+    .figure {
+        height: 12rem;
+        width: 13rem;
+    }
+    figcaption{
+        font-size: .8rem;
+        margin: 0 7%;
+        line-height: .95rem;
+    }
+    .figure-title{
+        font-size:.85rem;
+    }
+    .nav-author > span {
+        font-size: .8rem;
+    }
+    .nav-author > img {
+        height: 1.5rem;
+    }
+    .message-panel {
+        left: 21%;
+    }
+    /* image carousel */
+    .image-carousel {
+        width: 90%;
+    }
+}
+@media all and (max-width:700px) {
+    .highlight-article{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .highlight-article-right{
+        width:100%;
+        margin-left:0;
+        margin:2% 0 0 0;
+    }
+    /* written articles */
+    .nav-author > span {
+        font-size: .7rem;
+        margin-left: 1.4rem;
+    }
+    .nav-author > img {
+        height: 1.2rem;
+    }
+    .nav-title {
+        font-size: .6rem;
+    }
+    .nav-category{
+        font-size:.8rem;
+    }
+    .nav-new-article, .go-back {
+        font-size: .9rem;
+    }
+    /* contact page */
+    .contact-title > span {
+        margin: 0 .7rem;
+    }
+    .contact-description {
+        margin: 0rem 10% 1rem 10%;
+    }
+    .contact-description {
+        font-size: .8rem;
+    }
+    .message-panel {
+        top: 31%;
+        left: 22%;
+        width: 19rem;
+    }
+}
+
+@media all and (max-width:600px) {
+    .logo{
+        height:6rem;
+    }
+    .logo-small > a >img{
+        margin-top:1rem;
+    }
+    .header-nav2 {
+        height: 8rem;
+      }
+    .article-img{
+        height:10rem;
+        width:10rem;
+        padding-right:1.5rem;
+    }
+    #float{
+        float:left;
+    }
+    .article-title{
+        font-size: .9rem;
+    }
+    /* .article-content{
+        display: flex;
+    } */
+    .articles{
+        -ms-grid-columns: none;
+        grid-template-columns: none;
+        margin-top:5%;
+    }
+    .article{
+        position: relative;
+        margin:0;
+        width:100%;
+        height: 100%;
+    }
+    /* .article-details{
+        margin-left:2%;
+    } */
+    .article-content{
+        margin:0;
+    }
+    /* .read-more{
+        position: absolute;
+        bottom:1.5rem;
+        right:0;
+
+    } */
+    .highlight-read-more{
+        margin:.5rem 0 0 0;
+    }
+    .read-more{
+        margin: 0 0 .5rem 0;
+    }
+    .description-height{
+        min-height:8.5rem;
+    }
+    
+    .footer-links > li{
+        margin-left:.2rem;
+        margin-right:.2rem;
+    }
+    .footer-item > a > span{
+        font-size:.6rem;
+    }
+    .nav-item2 > a > span {
+        font-size: .7rem;
+    }
+    .logo-small > a > img {
+        height: 3.8rem;
+    }
+    /* article page responsive-ness */
+    .articles-page-title > span{
+        font-size: 2rem;
+    }
+    .article-list-meta{
+        font-size: .75rem;
+    }
+    /* about page */
+    .about-title > span {
+        font-size: 1.7rem;
+    }
+    .sardinia-map {
+        width: 8.5rem;
+        height: 15rem;
+    }
+    .about-title{
+        margin: 0rem 0 1rem 0;
+
+    }
+    .about-description{
+        margin-bottom:1rem;
+        font-size: .9rem;
+    }
+    /* donate page */
+    .donate-description {
+        margin: 0 15% 1.5rem 15%;
+    }
+    .donate-description {
+        font-size: .7rem;
+    }
+    .donate-title{
+        font-size: 2rem;
+        margin-top: 0;
+        margin-bottom:.8rem;
+
+    }
+    /* written articles */
+    .single, .figure {
+        height: 14rem;
+        width: 20rem;
+    }
+    /*
+    .figure {
+        height: 10rem;
+        width: 10rem;
+    } */
+    .article-col1-col1 {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+    .article-p, .footnotes {
+        font-size: .9rem;
+    }
+    .author-section{
+        line-height: .8rem;
+    }
+    .article-meta > img {
+        height: 1.2rem;
+        left: 39%;
+    }
+    
+    .article-title-meta {
+        line-height: 2.5rem;
+    }
+    .article-meta, .article-meta span {
+        margin-right: .4rem;
+    }
+    .article-date {
+        margin-left: 1.5rem;
+    }
+    .about-container {
+        margin-top: 2rem;
+    }
+    /* contact page */
+    .contact-description {
+        font-size: .75rem;
+        line-height: 1rem;
+    }
+    .contact-title > span {
+        height: 2rem;
+    }
+    .contact-title > span {
+        font-size: 1.8rem;
+    }
+    .contact-title > .contact-img {
+        height: 2.3rem;
+        width: 3.3rem;
+    }
+    .contact-title{
+        margin-top:1rem;
+    }
+    .form-control > div {
+        padding: 0rem 0 .8rem 0;
+    }
+    .form-control .success-icon, .form-control .fail-icon {
+        bottom: 23px;
+        right:5px;
+    }
+    .form-control small {
+        bottom: -6px;
+        font-size: .7rem;
+    }
+    .contact-message > label > span > i {
+        top: 5px;
+    }
+    .message-panel {
+        top: 24%;
+        left: 21%;
+        width: 17rem;
+    }
+    /* image carousel */
+    .image-carousel {
+        width: 100%;
+    }
+    .carousel__indicator {
+        width: .35rem;
+        height: .35rem;
+    }
+}
+@media all and (max-width:560px) {
+    .contact-description{
+        display:none;
+    }
+    .contact-title{
+        margin-bottom: 2rem;
+    }
+    /* contact page */
+    .message-icon {
+        height: 4rem;
+        font-size: 4rem;
+        padding: .5rem 0 .5rem;
+        margin: .5rem;
+    }
+    .message .header {
+        font-size: 1rem;
+    }
+    .message .status {
+        font-size: .8rem;
+    }
+    .back-home, .message-close {
+        padding: .3rem .8rem;
+    }
+    /* image carousel */
+    .carousel__nav {
+        justify-content: center;
+        display: flex;
+        margin-top: 1rem;
+    }
+}
+
+@media all and (max-width:500px){
+    .article-p, .footnotes{
+        margin: 0 7% !important;
+    }
+    .section-title{
+        margin: 0 5% ;
+    }
+    .container2 {
+        margin: 0;
+    }
+    .header-navigation{
+        background: #6c2d35;
+    }
+    .nav2{
+        margin: 0;
+    }
+    .navigation-links{
+        display:none;
+    }
+    .mobile-nav{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .footer-links{
+        display: none;
+    }
+    .back-to-top{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .logo-small > a > img {
+        height: 3.2rem;
+        margin-top: .8rem;
+
+    }
+    .logo{
+        height: 5rem;
+    }
+    /* carousel */
+
+    .carousel__description {
+        width: 96%;
+        padding: 0.5rem;
+        line-height: .9rem;
+        font-size: .7rem;
+    }
+    /* breadcrumb */
+    .breadcrumbs_greyText, .breadcrumbs_current{
+        font-size:.9rem;
+    }
+    /* article page responsive-ness */
+    .article-list-item {
+        -ms-grid-columns: .8fr 2fr;
+        grid-template-columns: .8fr 2fr;
+    }
+    .articles-page-title > span{
+        font-size: 1.6rem;
+    }
+    .article-list-meta{
+        font-size: .7rem;
+    }
+    .articles-page-title{
+        padding-bottom: .5rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+
+    }
+    .article-list-title > a {
+        font-size: 1.06rem;
+    }
+    .article-list-tags > p{
+        font-size: .75rem;
+    }
+    .article-list-description {
+        font-size: .9rem;
+    }
+    /* about-page */
+    .sardinia-map{
+        display:none;
+    }
+    /* donate page */
+    .btc-logo, .eth-logo, .xmr-logo, .ada-logo {
+        width: 4.5rem;
+    }
+    .eth-logo{
+        height:1.5rem;
+    }
+    .xmr-logo {
+        height: 1.5rem;
+    }
+    .ada-logo{
+        height:2rem;
+        top: 1.8rem;
+
+    }
+    .header-nav2 {
+        height: 7rem;
+    }
+    /* written articles */
+    .single, .figure {
+        height: 13rem;
+        width: 17rem;
+    }
+    .figure-title {
+        font-size: .8rem;
+    }
+    .article-title-meta {
+
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+
+    }
+    .section-title > span {
+        font-size: 1.1rem;
+    }
+    .article-navigation {
+        margin: 0;
+    }
+    .author-section, .nav-category{
+        display:none;
+    }
+    .article-meta span {
+        font-size: .7rem;
+    }
+    .article-meta > img {
+        height: 1rem;
+    }
+    .article-date {
+        margin-left: 1.3rem;
+    }
+    .article-meta, .article-meta span {
+        margin-right: .2rem;
+    }
+    .article-title-meta {
+        line-height: 1.7rem;
+    }
+    .article-header {
+        padding: 1rem 0 1.5rem 0;
+        margin-top:0;
+    }
+    .article-meta span {
+        font-size: .6rem;
+    }
+    .article-meta > img {
+        bottom: 4px;
+    }
+    .contact-content {
+        margin: 0px 0%;
+    }
+    .message-panel {
+        top: 22%;
+        left: 18%;
+        width: 16rem;
+    }
+    /* image carousel */
+    .image-carousel {
+        height:300px;
+    }
+    
+}
+@media all and (max-width:450px){
+    .message-panel {
+        top: 22%;
+        left: 15%;
+        width: 15.6rem;
+    }
+    
+}
+@media all and (max-width:400px){
+    /* gallery carousel */
+    .carousel__description{
+        padding: 0.4rem;
+        line-height: .75rem;
+        font-size: .6rem;
+    }
+    .logo > a > img {
+        height: 3.8rem;
+    }
+    .single, .figure {
+        height: 12rem;
+        width: 15rem;
+    }
+    .highlight-img>img{
+        height:13rem;
+
+    }
+    .figure-title {
+        margin-bottom: 1rem;
+    }
+    .article-col1-col1 {
+        margin-top: 1rem;
+    }
+    .article-col1 {
+        margin-top: 1rem;
+    }
+    .section-title > span {
+        font-size: 1rem;
+    }
+    /* contact page */
+    /* .contact-form {
+        padding: .5rem 1.5rem .5rem 1rem;
+    } */
+    .contact-content {
+        margin: 0;
+    }
+    .contact-title > .contact-img {
+        height: 2rem;
+        width: 3rem;
+    }
+    .contact-title > span {
+        font-size: 1.6rem;
+        margin: 0 .5rem;
+
+    }
+    .form-control label {
+        font-size: .7rem;
+    }
+    .contact-title{
+        margin-bottom: 1.5rem;
+    }
+    .contact-form {
+        padding-left:1rem;
+    }
+
+    .message-icon {
+        height: 2rem;
+        font-size: 3rem;
+    }
+    .message-btns {
+        margin: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .back-home, .message-close {
+        padding: .2rem .4rem;
+    }
+    .message-panel {
+        top: 26%;
+        left: 16%;
+        width: 14.6rem;
+    }
+    
+}
+@media all and (max-width:380px){
+
+    .message-panel {
+        top: 26%;
+        left: 12%;
+    }
+    .single, .figure {
+        height: 12rem;
+        width: 13rem;
+    }
+    .article-title {
+        font-size: .9rem;
+        line-height: 1rem;
+    }
+    /* image carousel */
+    .image-carousel {
+        height:250px;
+    }
+    .carousel__button--right {
+        right: -28px;
+    }
+    .carousel__button--left {
+        left: -28px;
+    }
+}
+
+
+
+@media all and (max-width:345px){
+    .logo {
+        height: 4rem;
+    }
+    .header-nav2 {
+        height: 7rem;
+    }
+    #float{
+        float:none;
+    }
+    .highlight-img>img{
+        height:12rem;
+    }
+    .article-img{
+        max-width: 16rem;
+        padding: 0;
+        width: 100%;
+    }
+    
+    
+    .logo > a > img {
+        height: 3.5rem;
+        margin-top: 0rem;
+    }
+    .copyright{
+        font-size: .55rem;
+    }
+    /* breadcrumb */
+    .breadcrumbs_greyText, .breadcrumbs_current{
+        font-size:.85rem;
+    }
+    /* article page responsive-ness */
+    .articles-page-title > span {
+        font-size: 1.4rem;
+    }
+    .article-list-title > a {
+        font-size: 1rem;
+    }
+    .article-list-meta {
+        font-size: .55rem;
+    }
+    .article-list-description {
+        font-size: .85rem;
+    }
+    /* donate page responsive */
+    
+    .page-title > span {
+        padding-bottom: 0;
+    }
+    .donate-title{
+        margin-bottom: .4rem;
+
+    }
+    .donate-description {
+        margin: 0 10% 1rem 10%;
+    }
+    .donation-list > li {
+        padding: .5rem;
+    }
+    .donate-btn>i {
+        padding-right:.5rem;
+    }
+    .donate-label > img {
+        top: 35%;
+    }
+    /* written articles */
+    .article-p, .footnotes {
+        font-size: .85rem;
+    }
+    .single, .figure {
+        height: 12rem;
+        width: 13rem;
+    }
+    .section-title > span {
+        font-size: .9rem;
+    }
+    .article-title-meta {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+    .article-meta span {
+        font-size: .5rem;
+    }
+    .article-meta > img {
+        height: .9rem;
+    }
+    .section-title > span {
+        font-size: .9rem;
+    }   
+    
+    /* image carousel */
+    .carousel__indicator {
+        width: .25rem;
+        height: .25rem;
+    }
+    .carousel__commentary {
+        font-size: .6rem;
+    }
+}
