@@ -12,6 +12,11 @@
 -->
 
 <!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/ccairns33/sardiniaProduction">
+    <img src="public/images/logo/logo12.png" alt="Logo" width="80" height="80">
+  </a>
   <h3 align="center">Sardinian Disruption</h3>
 
   <p align="center">
@@ -71,12 +76,11 @@ A website detailing the geology and artifacts of neolitic peoples on the island 
 
 <!-- GETTING STARTED -->
 ## Getting Started
-    Would have to include database data.
 ### Installation
-
+Dummy data will have to be included into the Database
 1. Clone the repo
    ```sh
-   git clone https://github.com/ccairns33/inventory-app-production.git
+   git clone https://github.com/ccairns33/sardiniaProduction.git
    ```
 2. Install NPM packages
    ```sh
