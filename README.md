@@ -20,7 +20,7 @@
   <h3 align="center">Sardinian Disruption</h3>
 
   <p align="center">
-    Web app created for www.sardiniandisruption.com
+    Reponsive web app created for www.sardiniandisruption.com
     <br />
     <a href="https://github.com/ccairns33/sardiniaProduction"><strong>Explore the docs »</strong></a>
     <br />
@@ -59,8 +59,7 @@
 ![SD Screen Shot][product-screenshot]
 ![SD Gallery Screen Shot][product-screenshot2]
 ![SD Articles Screen Shot][product-screenshot3]
-
-A website detailing the geology and artifacts of neolitic peoples on the island of Sardinia.
+![SD Articles Screen Shot][product-screenshot4]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -77,7 +76,7 @@ A website detailing the geology and artifacts of neolitic peoples on the island 
 <!-- GETTING STARTED -->
 ## Getting Started
 ### Installation
-Dummy data will have to be included into the Database
+Dummy data will have to be included into the Database.
 1. Clone the repo
    ```sh
    git clone https://github.com/ccairns33/sardiniaProduction.git
@@ -131,3 +130,5 @@ Project Link: [https://github.com/ccairns33/sardiniaProduction](https://github.c
 [product-screenshot]: public/images/screencapture-sardiniandisruption.png
 [product-screenshot2]: public/images/screencapture-sardiniandisruption-gallery.png
 [product-screenshot3]: public/images/screencapture-sardiniandisruption-articles.png
+[product-screenshot3]: public/images/screencapture-sardiniandisruption-mobile.png
+
