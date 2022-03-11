@@ -67,6 +67,7 @@
 
 * [Node.js](https://nodejs.org/)
 * [Express.js](https://expressjs.com/)
+* [Webpack](https://webpack.js.org/)
 * [MongoDB](https://mongodb.com/)
 * [Handlebars](https://handlebarsjs.com/)
 * CSS
