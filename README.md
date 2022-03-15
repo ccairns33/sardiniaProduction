@@ -25,8 +25,6 @@
     <a href="https://github.com/ccairns33/sardiniaProduction"><strong>Explore the docs »</strong></a>
     <a href="https://www.sardiniandisruption.com"><strong>Visit the website »</strong></a>
 
-    <br />
-
   </p>
 </div>
 
