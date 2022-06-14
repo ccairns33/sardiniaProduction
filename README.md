@@ -69,6 +69,7 @@
 * [Webpack](https://webpack.js.org/)
 * [MongoDB](https://mongodb.com/)
 * [Handlebars](https://handlebarsjs.com/)
+* [Javascript](https://javascript.info/)
 * CSS
 
 <p align="right">(<a href="#top">back to top</a>)</p>
